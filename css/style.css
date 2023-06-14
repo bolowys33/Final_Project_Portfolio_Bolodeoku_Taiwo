@@ -101,7 +101,6 @@ section {
 }
 
 body {
-    line-height: 1;
     width: 100%;
 }
 
@@ -619,7 +618,6 @@ main button:hover {
     }
 
     .about-info {
-        /* padding-right: 30px; */
         margin-top: 80px;
         flex: 1;
     }
@@ -642,6 +640,10 @@ main button:hover {
         padding: 0 100px;
     }
 
+	main p{
+		font-size: 18px;
+	}
+	
     .service-grid {
         padding: 30px 150px;
     }
